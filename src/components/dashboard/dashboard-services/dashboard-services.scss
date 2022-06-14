@@ -1,0 +1,24 @@
+$thead-bg:#030053;
+$thead-color:#fff;
+
+#dashboardservices{
+    font-family:'Noto Kufi Arabic',Arial, Helvetica, sans-serif;
+    height:800;
+
+    thead{
+        background-color: $thead-bg;
+        th,td{
+           font-family:'Noto Kufi Arabic',Arial, Helvetica, sans-serif;
+            
+            color:$thead-color;
+            font-size: medium;
+            font-weight: bold;
+
+        }
+    }
+}
+#addnewservice{
+    .MuiInputLabel-root{
+    font-family:'Noto Kufi Arabic',Arial, Helvetica, sans-serif;
+}
+}
